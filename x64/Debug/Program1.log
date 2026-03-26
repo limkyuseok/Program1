@@ -1,3 +1,17 @@
 ﻿  Program1.cpp
-C:\Users\임규석\Desktop\Program1\Program1.cpp(58,1): warning C4172: 지역 변수 또는 임시 의 주소를 반환하는 중
-  Program1.vcxproj -> C:\Users\임규석\Desktop\Program1\x64\Debug\Program1.exe
+C:\Users\임규석\Desktop\Program1\Program1.cpp(80,10): error C3867: 'PriorityQueue<int>::size': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+      C:\Users\임규석\Desktop\Program1\Program1.cpp(80,10):
+      템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+          C:\Users\임규석\Desktop\Program1\Program1.cpp(96,21):
+          컴파일되는 클래스 템플릿 인스턴스화 'PriorityQueue<int>'에 대한 참조를 확인하세요.
+          C:\Users\임규석\Desktop\Program1\Program1.cpp(78,13):
+          클래스 템플릿 멤버 함수 'const int &PriorityQueue<int>::size(void)'을(를) 컴파일하는 중입니다.
+              C:\Users\임규석\Desktop\Program1\Program1.cpp(104,62):
+              'main'에서 'PriorityQueue<int>::size'에 대한 첫 번째 참조를 확인하세요.
+  
+C:\Users\임규석\Desktop\Program1\Program1.cpp(80,10): error C2440: 'return': 'const int &(__cdecl PriorityQueue<int>::* )(void)'에서 'const int &'(으)로 변환할 수 없습니다.
+      C:\Users\임규석\Desktop\Program1\Program1.cpp(80,10):
+      원인: 'const int &(__cdecl PriorityQueue<int>::* )(void)'에서 'const int'(으)로 변환할 수 없습니다.
+      C:\Users\임규석\Desktop\Program1\Program1.cpp(80,10):
+      이 변환이 가능한 컨텍스트가 없습니다.
+  
