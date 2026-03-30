@@ -1,15 +1,2 @@
 ﻿  Program1.cpp
-C:\Users\임규석\Desktop\Program1\Program1.cpp(53,20): error C2672: 'HashTable<const char *,int>::hash_function': 일치하는 오버로드된 함수가 없습니다.
-      C:\Users\임규석\Desktop\Program1\Program1.cpp(43,15):
-      'unsigned int HashTable<const char *,int>::hash_function(KEY)'일 수 있습니다.
-          with
-          [
-              KEY=const char *
-          ]
-          C:\Users\임규석\Desktop\Program1\Program1.cpp(53,20):
-          'unsigned int HashTable<const char *,int>::hash_function(KEY)': 'T'의 템플릿 인수를 추론할 수 없습니다.
-          with
-          [
-              KEY=const char *
-          ]
-  
+  Program1.vcxproj -> C:\Users\임규석\Desktop\Program1\x64\Debug\Program1.exe
